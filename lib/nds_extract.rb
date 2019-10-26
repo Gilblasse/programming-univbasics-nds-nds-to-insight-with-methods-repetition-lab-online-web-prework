@@ -35,11 +35,15 @@ def list_of_directors(source)
 end
 
 def total_gross(source)
-  total = directors_totals(source)
+  directors_gross = directors_totals(source)
   directors = list_of_directors(source)
   
-  puts "total = #{total}"
-  puts "directors = #{directors}"
+  row_index = 0
+  while row_index < directors.count do
+    directors_gross[directors]
+    row_index += 1
+  end
+  total[directors]
   # Write this implementation
   #
   # Should use methods:
