@@ -41,11 +41,11 @@ def total_gross(source)
   
   row_index = 0
   while row_index < director_array.count do
-    grand_total += directors_gross[director_array]
+    puts directors_gross[director_array]
     row_index += 1
   end
   
-  grand_total
+  #grand_total
   # Write this implementation
   #
   # Should use methods:
