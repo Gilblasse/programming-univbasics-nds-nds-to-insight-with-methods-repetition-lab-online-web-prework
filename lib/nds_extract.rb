@@ -38,7 +38,8 @@ def total_gross(source)
   directors_gross = directors_totals(source)
   director_array = list_of_directors(source)
   grand_total = 0
-
+  
+  puts director_array[0].class
   puts director_array[0]
   puts directors_gross.class
   puts directors_gross[director_array[0]]
