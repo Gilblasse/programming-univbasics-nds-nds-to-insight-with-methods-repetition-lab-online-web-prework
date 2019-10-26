@@ -38,19 +38,14 @@ def total_gross(source)
   directors_gross = directors_totals(source)
   director_array = list_of_directors(source)
   grand_total = 0
-  
-  puts director_array[0].class
-  puts director_array[0]
-  puts directors_gross.class
-  puts directors_gross[director_array[0]]
-=begin
   row_index = 0
+  
   while row_index < director_array.count do
-     directors_gross[director_array]
+     directors_gross[director_array[row_index]]
     row_index += 1
   end
-=end
-  #grand_total
+  
+  grand_total
   # Write this implementation
   #
   # Should use methods:
