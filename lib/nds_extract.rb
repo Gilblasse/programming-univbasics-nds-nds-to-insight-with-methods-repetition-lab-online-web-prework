@@ -39,6 +39,7 @@ def total_gross(source)
   directors = list_of_directors(source)
   
   puts total
+  puts directors
   # Write this implementation
   #
   # Should use methods:
