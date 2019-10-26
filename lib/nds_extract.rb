@@ -40,6 +40,7 @@ def total_gross(source)
   grand_total = 0
 
   puts director_array
+  puts director_array.class
 =begin
   row_index = 0
   while row_index < director_array.count do
