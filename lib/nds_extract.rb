@@ -40,7 +40,7 @@ def total_gross(source)
   grand_total = 0
 
   puts directors_gross.class
-  puts directors_gross
+  puts directors_gross["Stephen Spielberg"]
 =begin
   row_index = 0
   while row_index < director_array.count do
