@@ -39,7 +39,7 @@ def total_gross(source)
   director_array = list_of_directors(source)
   grand_total = 0
 
-  puts director_array.class
+  puts director_array[0].class
   puts director_array
 =begin
   row_index = 0
