@@ -38,8 +38,8 @@ def total_gross(source)
   directors_gross = directors_totals(source)
   director_array = list_of_directors(source)
   grand_total = 0
-  directors_gross[]
-  
+
+  puts director_array
 =begin
   row_index = 0
   while row_index < director_array.count do
