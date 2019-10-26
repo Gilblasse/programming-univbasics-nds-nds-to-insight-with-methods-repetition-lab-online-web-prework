@@ -34,7 +34,6 @@ def list_of_directors(source)
   directors
 end
 
-
 def total_gross(source)
   directors_gross = directors_totals(source)
   director_array = list_of_directors(source)
