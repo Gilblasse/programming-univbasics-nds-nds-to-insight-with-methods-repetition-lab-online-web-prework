@@ -39,12 +39,10 @@ def total_gross(source)
   director_array = list_of_directors(source)
   grand_total = 0
   row_index = 0
-  
   while row_index < director_array.count do
     grand_total += directors_gross[director_array[row_index]]
     row_index += 1
   end
-  
   grand_total
 end
 
